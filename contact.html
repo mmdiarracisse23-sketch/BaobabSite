@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Baobab Gourmand</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Baobab Gourmand</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link active" href="about.html">À propos</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- TITRE -->
+<div class="container text-center mt-5">
+  <h1>Contactez-nous</h1>
+  <p>Réservez ou envoyez-nous un message</p>
+</div>
+
+<!-- SECTION CONTACT -->
+<div class="container mt-5">
+  <div class="row">
+
+    <!-- INFOS -->
+    <div class="col-md-6">
+      <h3>Nos coordonnées</h3>
+      <p> Dakar, Sénégal</p>
+      <p> +221 78 658 55 13</p>
+      <p> contact@baobab.com</p>
+      <div class="location-circle-card mt-3 mx-auto mx-md-0">
+        <iframe
+          title="Localisation Baobab Gourmand"
+          src="https://www.google.com/maps?q=Dakar,+Senegal&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <!-- FORMULAIRE -->
+    <div class="col-md-6">
+      <h3>Envoyer un message</h3>
+
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Nom <span style="color: #ff69b4;">*</span></label>
+          <input type="text" class="form-control" placeholder="Votre nom" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Email <span style="color: #ff69b4;">*</span></label>
+          <input type="email" class="form-control" placeholder="Votre email" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Message <span style="color: #ff69b4;">*</span></label>
+          <textarea class="form-control" rows="4" placeholder="Votre message" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-warning">Envoyer</button>
+      </form>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+
+<footer class="text-white text-center p-4" >
+    <p class="mb-0">2026 Baobab Gourmand — Tous droits réservés</p>
+</footer>
+
+</body>
+</html>

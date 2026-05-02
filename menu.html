@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Baobab Gourmand</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Baobab Gourmand</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div>
+    <section class="heroforMenu">
+        <div class="hero-contentForMenu">
+            <h1><strong>MENU OFFICIEL</strong></h1>
+        </div>
+    </section>
+
+<main class="container mb-5">
+
+    <div class="text-center my-4 filter-bar">
+        <button type="button" class="btn btn-warning fw-bold text-white btn-commander filter-btn active" data-filter="tout">Tout</button>
+        <button type="button" class="btn btn-warning fw-bold text-white btn-commander filter-btn" data-filter="entrees">Entrées</button>
+        <button type="button" class="btn btn-warning fw-bold text-white btn-commander filter-btn" data-filter="plats">Plats</button>
+        <button type="button" class="btn btn-warning fw-bold text-white btn-commander filter-btn" data-filter="streetfood">Street Food</button>
+        <button type="button" class="btn btn-warning fw-bold text-white btn-commander filter-btn" data-filter="desserts">Desserts</button>
+        <button type="button" class="btn btn-warning fw-bold text-white btn-commander filter-btn" data-filter="jus">Jus Naturel</button>
+        <button type="button" class="btn btn-warning fw-bold text-white btn-commander filter-btn" data-filter="boissons">Boisson Locale</button>
+    </div>
+
+    <div class="row g-4 align-items-stretch">
+
+        <!-- ===== ENTRÉES (3 cartes) ===== -->
+        <div class="col-12 menu-item" data-category="entrees">
+            <h1 class="text-center">Entrées</h1>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="entrees">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 3.png" class="card-img-top" alt="Lapin á la mourtade">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Lapin á la mourtade</h5>
+                    <p class="card-text text-muted">Un lapin tendre nappé d'une sauce moutarde crémeuse, accompagné de légumes savoureux.</p>
+                    <p class="prix mt-auto">2000 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="entrees">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 5.png" class="card-img-top" alt="Steak aux crevettes">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Steak aux crevettes</h5>
+                    <p class="card-text text-muted">Un steak grillé juteux sublimé par des crevettes fondantes et une sauce onctueuse.</p>
+                    <p class="prix mt-auto">2000 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="entrees">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 4.png" class="card-img-top" alt="Salade">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Salade</h5>
+                    <p class="card-text text-muted">Une salade fraîche et croquante accompagnée de pains gratinés. Légère, savoureuse et pleine de fraîcheur.</p>
+                    <p class="prix mt-auto">2000 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== PLATS (3 cartes) ===== -->
+        <div class="col-12 menu-item" data-category="plats">
+            <h1 class="text-center">Plats</h1>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="plats">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/ma-photo.png" class="card-img-top" alt="Thieboudienne Diaga">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Thieboudienne Diaga</h5>
+                    <p class="card-text text-muted">Le plat national sénégalais : riz rouge savoureux accompagné de son poisson et de sa sauce oignon.</p>
+                    <p class="prix mt-auto">7 000 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="plats">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/doma.png" class="card-img-top" alt="Domoda">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Domoda Boulette</h5>
+                    <p class="card-text text-muted">Une onctueuse sauce à base de farine et de citron, accompagnée de boulettes de viande fondantes.</p>
+                    <p class="prix mt-auto">6 500 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="plats">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/Capture%20d%E2%80%99%C3%A9cran%202026-04-27%20%C3%A0%2016.52.29.png" class="card-img-top" alt="Mafé traditionnel">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Mafé Traditionnel</h5>
+                    <p class="card-text text-muted">Sauce onctueuse à base de pâte d'arachide mijotée avec de la viande de bœuf et des légumes.</p>
+                    <p class="prix mt-auto">4 500 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== STREET FOOD (3 cartes) ===== -->
+        <div class="col-12 menu-item" data-category="streetfood">
+            <h1 class="text-center">Street Food</h1>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="streetfood">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 18.png" class="card-img-top" alt="Tacos">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Tacos avec viande</h5>
+                    <p class="card-text text-muted">Croustillant à l'extérieur, généreux à l'intérieur. Viande savoureuse, légumes frais et sauce onctueuse.</p>
+                    <p class="prix mt-auto">2500 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="streetfood">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 19.png" class="card-img-top" alt="Hamburger">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Hamburger Royal</h5>
+                    <p class="card-text text-muted">Poulet croustillant, cheddar fondant, salade croquante entre un pain brioché doré. Une expérience royale !</p>
+                    <p class="prix mt-auto">3500 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="streetfood">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 20.png" class="card-img-top" alt="Pizza">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Pizza</h5>
+                    <p class="card-text text-muted">Mozzarella filante et pepperoni savoureux pour une explosion de saveurs italiennes authentiques.</p>
+                    <p class="prix mt-auto">3000 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== DESSERTS (3 cartes) ===== -->
+        <div class="col-12 menu-item" data-category="desserts">
+            <h1 class="text-center">Desserts</h1>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="desserts">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 6.png" class="card-img-top" alt="Glace chocolat">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Glace avec chocolat</h5>
+                    <p class="card-text text-muted">Boule de glace crémeuse nappée d'un chocolat chaud velouté et de biscuits croquants.</p>
+                    <p class="prix mt-auto">2000 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="desserts">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 7.png" class="card-img-top" alt="Gâteau fraise">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Gâteau avec fraise</h5>
+                    <p class="card-text text-muted">Couches de biscuit moelleux, crème onctueuse et fraises fraîches. Douceur et fraîcheur parfaitement équilibrées.</p>
+                    <p class="prix mt-auto">2000 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="desserts">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 8.png" class="card-img-top" alt="Salade de fruit">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Salade de fruit</h5>
+                    <p class="card-text text-muted">Mélange coloré de fraises, bananes, kiwis et myrtilles. Légère, vitaminée et pleine de fraîcheur.</p>
+                    <p class="prix mt-auto">3000 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== JUS NATURELS (3 cartes) ===== -->
+        <div class="col-12 menu-item" data-category="jus">
+            <h1 class="text-center">Jus Naturels</h1>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="jus">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 15.png" class="card-img-top w-100" alt="Jus orange menthe">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Jus orange avec menthe</h5>
+                    <p class="card-text text-muted">Jus d'orange fraîchement pressé relevé par une touche de menthe. Vitaminé et désaltérant.</p>
+                    <p class="prix mt-auto">2000 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="jus">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 16.png" class="card-img-top" alt="Jus betterave">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Jus betterave</h5>
+                    <p class="card-text text-muted">Une bombe de nutriments à la couleur rouge profonde. Saveur douce et terreuse, idéal pour la santé.</p>
+                    <p class="prix mt-auto">2000 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="jus">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 17.png" class="card-img-top" alt="Cocktail citron">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Cocktail citron</h5>
+                    <p class="card-text text-muted">Citron frais, eau pétillante glacée et menthe fraîche. Acidulé, sucré, parfaitement équilibré.</p>
+                    <p class="prix mt-auto">2000 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== BOISSONS LOCALES (3 cartes) ===== -->
+        <div class="col-12 menu-item" data-category="boissons">
+            <h1 class="text-center">Boissons Locales</h1>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="boissons">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 21.png" class="card-img-top" alt="Thé sénégalais">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Thé à la sénégalaise</h5>
+                    <p class="card-text text-muted">Préparé à l'ancienne avec amour, un mélange unique de saveurs fortes et sucrées. Une expérience culturelle authentique.</p>
+                    <p class="prix mt-auto">300 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="boissons">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 22.png" class="card-img-top" alt="Ataya Bisap">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Ataya Bisap</h5>
+                    <p class="card-text text-muted">Infusion chaude à la fleur d'hibiscus, couleur rouge rubis. Légèrement acidulée et naturellement sucrée.</p>
+                    <p class="prix mt-auto">200 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 menu-item" data-category="boissons">
+            <div class="card h-100 shadow-sm menu-card border-0">
+                <div class="img-container">
+                    <img src="./image/image copy 23.png" class="card-img-top" alt="Was gingembre">
+                </div>
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title fw-bold">Was avec gingembre</h5>
+                    <p class="card-text text-muted">Boisson chaude et tonifiante qui mêle les arômes du gingembre frais à la douceur de la menthe.</p>
+                    <p class="prix mt-auto">2000 FCFA</p>
+                    <button type="button" class="btn fw-bold text-white btn-commander">Commander</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+</div>
+
+<footer class="text-white text-center p-4" style="background-color: #3b0a1f;">
+    <p class="mb-0">©️ 2026 Baobab Gourmand — Tous droits réservés</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js.js"></script>
+
+</body>
+</html>
