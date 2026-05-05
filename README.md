@@ -1,4 +1,4 @@
-# Le Baobab Gourmand
+v   # Le Baobab Gourmand
 
 Site vitrine d'un restaurant de cuisine africaine moderne basé à Dakar, Sénégal.
 
