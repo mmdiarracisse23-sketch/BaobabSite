@@ -1,4 +1,4 @@
-v   # Le Baobab Gourmand
+   # Le Baobab Gourmand
 
 Site vitrine d'un restaurant de cuisine africaine moderne basé à Dakar, Sénégal.
 
@@ -77,18 +77,18 @@ https://baobab-site-xi.vercel.app/
 ## 📸 Captures d'écran
 
 ### Page d'accueil
-<!-- Ajoute ta capture ici -->
-![Accueil](https://github.com/mmdiarracisse23-sketch/BaobabSite/blob/main/Capture%20d’écran%202026-05-04%20à%2014.45.18.png)
+<img width="1440" height="811" alt="Capture d’écran 2026-05-04 à 14 45 18" src="https://github.com/user-attachments/assets/a7855501-23dd-42ef-a749-5af3dc72fac4" />
+
+
 
 ### Page Menu
-<!-- Ajoute ta capture ici -->
-![Menu](https://github.com/mmdiarracisse23-sketch/BaobabSite/blob/main/Capture%20d’écran%202026-05-04%20à%2014.45.18.png)
+<img width="514" height="687" alt="Capture d’écran 2026-05-04 à 14 43 51" src="https://github.com/user-attachments/assets/3631f489-f679-4c40-82b0-ae8d07c2ac97" />
+
+
 
 ### Page À propos
-<!-- Ajoute ta capture ici -->
-![À propos](https://github.com/mmdiarracisse23-sketch/BaobabSite/blob/main/Capture%20d’écran%202026-05-04%20à%2014.43.51.png)
 
----
+
 
 ## 👥 Équipe
 
