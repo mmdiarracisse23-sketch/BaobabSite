@@ -70,8 +70,7 @@ baobab-gourmand/
 ---
 
 ## 🌐 Site en ligne
-
-🔗 [https://votre-lien-github-pages.github.io/baobab-gourmand](https://votre-lien-github-pages.github.io/baobab-gourmand)
+https://baobab-site-xi.vercel.app/
 
 ---
 
