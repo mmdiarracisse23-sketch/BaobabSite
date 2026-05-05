@@ -78,7 +78,7 @@ https://baobab-site-xi.vercel.app/
 
 ### Page d'accueil
 <!-- Ajoute ta capture ici -->
-![Accueil](./images/Capture d’écran 2026-05-04 à 14.43.51.png)
+![Accueil](https://github.com/mmdiarracisse23-sketch/BaobabSite/blob/main/Capture%20d’écran%202026-05-04%20à%2014.45.18.png)
 
 ### Page Menu
 <!-- Ajoute ta capture ici -->
