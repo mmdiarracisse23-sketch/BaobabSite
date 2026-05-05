@@ -86,7 +86,7 @@ https://baobab-site-xi.vercel.app/
 
 ### Page À propos
 <!-- Ajoute ta capture ici -->
-![À propos](./images/image copy30.png)
+![À propos](https://github.com/mmdiarracisse23-sketch/BaobabSite/blob/main/Capture%20d’écran%202026-05-04%20à%2014.43.51.png)
 
 ---
 
