@@ -103,7 +103,7 @@ Version Ordinateur : Affichage du site vérifié et optimisé pour les écrans d
 
 - El Hadji Dabo Diaw
 - Mame Diarra Cissé2
--Sokhna Gade Bousso
+- Sokhna Gade Bousso
 
 ---
 
