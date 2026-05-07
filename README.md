@@ -87,6 +87,8 @@ https://baobab-site-xi.vercel.app/
 
 
 ### Page À propos
+<img width="585" height="1266" alt="À propos - Baobab Gourmand" src="https://github.com/user-attachments/assets/40bb0ac8-9ba2-42e1-b608-3a64d6ea9667" />
+
 
 
 
