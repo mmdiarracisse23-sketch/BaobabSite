@@ -76,7 +76,10 @@ https://baobab-site-xi.vercel.app/
 
 ## 📸 Captures d'écran
 
+
 ### Page d'accueil
+Version Ordinateur : Affichage du site vérifié et optimisé pour les écrans d’ordinateur.
+
 <img width="1440" height="811" alt="Capture d’écran 2026-05-04 à 14 45 18" src="https://github.com/user-attachments/assets/a7855501-23dd-42ef-a749-5af3dc72fac4" />
 
 
