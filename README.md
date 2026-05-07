@@ -85,15 +85,19 @@ Version Ordinateur : Affichage du site vérifié et optimisé pour les écrans d
 
 
 ### Page Menu
+⁠Version iPad : Interface adaptée et testée sur iPad pour une navigation fluide.
+
+
 <img width="514" height="687" alt="Capture d’écran 2026-05-04 à 14 43 51" src="https://github.com/user-attachments/assets/3631f489-f679-4c40-82b0-ae8d07c2ac97" />
 
 
 
 ### Page À propos
+⁠  ⁠Version Téléphone : Responsivité validée sur téléphone pour garantir une bonne expérience utilisateur
 <img width="585" height="1266" alt="À propos - Baobab Gourmand" src="https://github.com/user-attachments/assets/40bb0ac8-9ba2-42e1-b608-3a64d6ea9667" />
 
 
-
+---
 
 ## 👥 Équipe
 
